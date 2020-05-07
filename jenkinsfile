@@ -1,0 +1,9 @@
+pipeline{
+  agent{ docker{ image 'rc-alpine' } }
+  stages {
+    stage {
+      sh 'python --version'
+	  }
+	}
+      }	
+
