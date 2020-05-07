@@ -1,5 +1,5 @@
 pipeline {
-  agent{ docker{ image 'rc-alpine' } }
+  agent { docker{ image 'rc-alpine' } }
   stages {
     stage('build') {
       sh 'python --version'
